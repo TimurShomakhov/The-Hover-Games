@@ -56,10 +56,10 @@ body {
   background-color: #07f;
   padding: 1rem;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
   border-radius: 15px;
   cursor: pointer;
-  max-width: 150px;
+  max-width: 200px;
 }
 .hero-cta-btn:hover {
   background-color: white;
