@@ -14,3 +14,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* video section */
+.video-section {
+  background-color: #23233c;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.video-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.video-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.video-iframe {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+}
