@@ -1,0 +1,16 @@
+/* Variables */
+/* :root {
+  --primary: #;
+  --secondary: #;
+  --accent: #;
+  --text: #
+  --dark-bg: #;
+  --gradient: linear-gradient(, var(--), var(--));
+} */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
