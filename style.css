@@ -15,6 +15,57 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* hero section */
+.hero-section {
+  background: url("images/hero.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  background-color: #23233cd6;
+  padding: 2rem;
+  max-width: 60ch;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.hero-badge {
+  background-color: rgba(67, 34, 255, 0.252);
+  color: rgb(179, 178, 255);
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+  max-width: max-content;
+}
+
+.hero-cta-btn {
+  background-color: #07f;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  cursor: pointer;
+  max-width: 150px;
+}
+.hero-cta-btn:hover {
+  background-color: white;
+  color: #07f;
+}
+
 /* video section */
 .video-section {
   background-color: #23233c;
