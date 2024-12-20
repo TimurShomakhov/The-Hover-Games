@@ -59,47 +59,25 @@ body {
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 768px) {
   .navbar {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .nav-links {
-      width: 100%;
-      text-align: left;
-      margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
   }
-  
+
   .nav-links li {
-      margin-left: 0;
-      padding: 10px;
-      width: 100%;
+    margin-left: 0;
+    padding: 10px;
+    width: 100%;
   }
 
   .nav-links a {
-      display: block;
+    display: block;
   }
-}
-
-.companies-container {
-  display: flex;  /* This makes the container a flex container */
-  gap: 10px;      /* Adds space between the flex items */
-  padding: 10px;  /* Adds padding inside the row */
-  background-color: #f0f0f0;  /* Background color of the row */
-}
-
-.companies-container div {
-  flex: 1;  /* Flex items will share equal space */
-  background-color: #3498db;  /* Background color of each item */
-  color: white;  /* Text color */
-  padding: 20px;  /* Padding inside each item */
-  text-align: center;  /* Center the text */
-  border-radius: 5px;  /* Rounded corners */
-}
-
-.trusted-companies {
-  color: blue;
-  text-align: center;
-  font-weight: bold;
 }
 
 /* hero section */
@@ -150,7 +128,6 @@ body {
 }
 
 /* company section */
-/* Rectangle 15 */
 .trusted-companies {
   padding: 4rem;
   h2 {
@@ -340,7 +317,6 @@ body {
   line-height: 1.6;
   font-family: Roboto;
 }
-
 
 /* Subscription section */
 .subscription {
