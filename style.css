@@ -80,6 +80,28 @@ body {
   }
 }
 
+.companies-container {
+  display: flex;  /* This makes the container a flex container */
+  gap: 10px;      /* Adds space between the flex items */
+  padding: 10px;  /* Adds padding inside the row */
+  background-color: #f0f0f0;  /* Background color of the row */
+}
+
+.companies-container div {
+  flex: 1;  /* Flex items will share equal space */
+  background-color: #3498db;  /* Background color of each item */
+  color: white;  /* Text color */
+  padding: 20px;  /* Padding inside each item */
+  text-align: center;  /* Center the text */
+  border-radius: 5px;  /* Rounded corners */
+}
+
+.trusted-companies {
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+
 /* hero section */
 .hero-section {
   background: url("images/hero.jpg") no-repeat center fixed;
