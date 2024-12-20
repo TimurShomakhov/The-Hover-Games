@@ -59,6 +59,99 @@
   pointer-events: none;
 }
 
+/* Subscription section */
+.subscription {
+  padding: 6rem 0;
+  background-color: #f8f9fa;
+}
+
+.subscription-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.subscription h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #23233c;
+  font-family: Roboto;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 15px;
+  padding: 3rem 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.price-amount {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #23233c;
+  margin-bottom: 1rem;
+  font-family: Roboto;
+}
+
+.price-description {
+  color: #666;
+  margin-bottom: 2rem;
+  font-family: Roboto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  min-height: 50px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  min-height: 150px;
+}
+
+.features-list li {
+  padding: 0.8rem 0;
+  color: #444;
+  font-family: Roboto;
+  font-size: 1rem;
+}
+
+.subscribe-btn {
+  background-color: #23233c;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%;
+}
+
+.subscribe-btn:hover {
+  background-color: #1a1a2e;
+}
+
 /* Footer section */
 .footer {
   background-color: #23233c;
