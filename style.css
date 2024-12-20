@@ -149,6 +149,40 @@ body {
   color: #07f;
 }
 
+/* company section */
+/* Rectangle 15 */
+.trusted-companies {
+  padding: 4rem;
+  h2 {
+    text-align: center;
+  }
+}
+
+.companies-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.companies-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+  justify-items: center;
+  align-items: center;
+}
+
+.company-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.company-item img:hover {
+  filter: grayscale(0%) brightness(0.2) sepia(0) hue-rotate(120deg) saturate(400%);
+  cursor: pointer;
+}
+
 /* video section */
 .video-section {
   background-color: #23233c;
